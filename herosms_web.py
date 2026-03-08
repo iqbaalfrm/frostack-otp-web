@@ -600,7 +600,7 @@ HTML = """
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OTP WA Iqbal</title>
+  <title>Frostack OTP</title>
   <style>
     :root {
       --bg1: #ffffff;
@@ -760,7 +760,7 @@ HTML = """
   <div class="wrap">
     <div class="header">
       <div>
-        <div class="title">OTP WA Iqbal</div>
+        <div class="title">Frostack OTP</div>
         <div class="muted">Dashboard Monitoring OTP</div>
       </div>
       <div class="muted" id="clock">-</div>

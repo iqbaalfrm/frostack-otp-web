@@ -1,4 +1,4 @@
-# OTP WA Iqbal
+# Frostack OTP
 Standalone web dashboard for Hero SMS OTP monitoring.
 
 ## Run local
