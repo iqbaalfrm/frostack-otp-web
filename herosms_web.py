@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 API_KEY = "3f392525d7d57d7fB04f819627d29202"
 BASE_URL = "https://hero-sms.com/stubs/handler_api.php"
 SERVICE = "wa"
-COUNTRY = "33"
-MAX_PRICE = "0.2"
+COUNTRY = "4"
+MAX_PRICE = "2.2"
 DEFAULT_TIMEOUT = 600
 POLL_INTERVAL = 5
 
