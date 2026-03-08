@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 API_KEY = "3f392525d7d57d7fB04f819627d29202"
 BASE_URL = "https://hero-sms.com/stubs/handler_api.php"
 SERVICE = "wa"
-COUNTRY = "4"
+COUNTRY = "33"
 MAX_PRICE = "0.2"
 DEFAULT_TIMEOUT = 600
 POLL_INTERVAL = 5
@@ -735,21 +735,24 @@ HTML = """
       .title { font-size: 24px; }
     }
     @media (max-width: 640px) {
-      body { padding: 12px; }
+      body { padding: 10px; }
       .wrap { max-width: 100%; }
-      .header { margin-bottom: 10px; }
+      .header { margin-bottom: 10px; align-items: flex-start; }
+      #clock { width: 100%; text-align: left; }
       .title { font-size: 18px; line-height: 1.25; }
       .muted { font-size: 12px; }
       .card { padding: 12px; border-radius: 12px; }
       h3 { margin: 6px 0 10px; font-size: 20px; }
       .row { gap: 6px; }
       .row > * { flex: 1 1 100%; width: 100%; }
-      input, button { width: 100%; min-height: 42px; }
+      input, button { width: 100%; min-height: 44px; }
       .stats { grid-template-columns: 1fr; }
-      .table-wrap { max-height: 52vh; }
-      table { font-size: 12px; min-width: 660px; }
+      .table-wrap { max-height: 50vh; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      table { font-size: 12px; min-width: 560px; }
       th, td { padding: 8px; }
-      .terminal { height: 180px; font-size: 11px; }
+      .terminal { height: 170px; font-size: 11px; }
+      .pager { justify-content: center; }
+      .pager button { min-height: 36px; }
     }
   </style>
 </head>
