@@ -600,7 +600,7 @@ HTML = """
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PT Minipay Indonesia Sejahtera</title>
+  <title>OTP WA Iqbal</title>
   <style>
     :root {
       --bg1: #ffffff;
@@ -760,8 +760,8 @@ HTML = """
   <div class="wrap">
     <div class="header">
       <div>
-        <div class="title">PT Minipay Indonesia Sejahtera</div>
-        <div class="muted">OTP Monitoring Dashboard</div>
+        <div class="title">OTP WA Iqbal</div>
+        <div class="muted">Dashboard Monitoring OTP</div>
       </div>
       <div class="muted" id="clock">-</div>
     </div>

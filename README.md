@@ -1,4 +1,4 @@
-# Minipay OTP Web
+# OTP WA Iqbal
 Standalone web dashboard for Hero SMS OTP monitoring.
 
 ## Run local
